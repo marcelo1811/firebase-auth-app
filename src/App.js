@@ -11,8 +11,8 @@ function App() {
       <ProfilePage />
     ) : (
       <Router>
-        <SignUp path='signUp' />
         <SignIn path='/'/>
+        <SignUp path='signUp' />
         <PasswordReset path='passwordReset' />
       </Router>
     )
